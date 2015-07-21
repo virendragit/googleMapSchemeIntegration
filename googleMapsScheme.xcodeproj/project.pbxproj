@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05AA82D1B550F8A008E1B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AA82C1B550F8A008E1B49 /* main.m */; };
+		C05AA8301B550F8A008E1B49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AA82F1B550F8A008E1B49 /* AppDelegate.m */; };
+		C05AA8331B550F8A008E1B49 /* googleMapsScheme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C05AA8311B550F8A008E1B49 /* googleMapsScheme.xcdatamodeld */; };
+		C05AA8361B550F8A008E1B49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AA8351B550F8A008E1B49 /* ViewController.m */; };
+		C05AA8391B550F8A008E1B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05AA8371B550F8A008E1B49 /* Main.storyboard */; };
+		C05AA83B1B550F8A008E1B49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05AA83A1B550F8A008E1B49 /* Images.xcassets */; };
+		C05AA83E1B550F8A008E1B49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05AA83C1B550F8A008E1B49 /* LaunchScreen.xib */; };
+		C05AA84A1B550F8B008E1B49 /* googleMapsSchemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AA8491B550F8B008E1B49 /* googleMapsSchemeTests.m */; };
+		C05AA8551B550FCC008E1B49 /* OpenInGoogleMapsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AA8541B550FCC008E1B49 /* OpenInGoogleMapsController.m */; };
+		C05AA8581B5512DB008E1B49 /* MapRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C05AA8571B5512DB008E1B49 /* MapRequestModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C05AA8441B550F8B008E1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05AA81F1B550F8A008E1B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05AA8261B550F8A008E1B49;
+			remoteInfo = googleMapsScheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C05AA8271B550F8A008E1B49 /* googleMapsScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleMapsScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05AA82B1B550F8A008E1B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05AA82C1B550F8A008E1B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05AA82E1B550F8A008E1B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C05AA82F1B550F8A008E1B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C05AA8321B550F8A008E1B49 /* googleMapsScheme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = googleMapsScheme.xcdatamodel; sourceTree = "<group>"; };
+		C05AA8341B550F8A008E1B49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C05AA8351B550F8A008E1B49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C05AA8381B550F8A008E1B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C05AA83A1B550F8A008E1B49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C05AA83D1B550F8A008E1B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C05AA8431B550F8B008E1B49 /* googleMapsSchemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleMapsSchemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05AA8481B550F8B008E1B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05AA8491B550F8B008E1B49 /* googleMapsSchemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleMapsSchemeTests.m; sourceTree = "<group>"; };
+		C05AA8531B550FCC008E1B49 /* OpenInGoogleMapsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenInGoogleMapsController.h; path = ../OpenInGoogleMapsController.h; sourceTree = "<group>"; };
+		C05AA8541B550FCC008E1B49 /* OpenInGoogleMapsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenInGoogleMapsController.m; path = ../OpenInGoogleMapsController.m; sourceTree = "<group>"; };
+		C05AA8561B5512DB008E1B49 /* MapRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRequestModel.h; sourceTree = "<group>"; };
+		C05AA8571B5512DB008E1B49 /* MapRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapRequestModel.m; sourceTree = "<group>"; };
+		C05AA8591B551324008E1B49 /* Enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05AA8241B550F8A008E1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05AA8401B550F8B008E1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C05AA81E1B550F8A008E1B49 = {
+			isa = PBXGroup;
+			children = (
+				C05AA8291B550F8A008E1B49 /* googleMapsScheme */,
+				C05AA8461B550F8B008E1B49 /* googleMapsSchemeTests */,
+				C05AA8281B550F8A008E1B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C05AA8281B550F8A008E1B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05AA8271B550F8A008E1B49 /* googleMapsScheme.app */,
+				C05AA8431B550F8B008E1B49 /* googleMapsSchemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05AA8291B550F8A008E1B49 /* googleMapsScheme */ = {
+			isa = PBXGroup;
+			children = (
+				C05AA82E1B550F8A008E1B49 /* AppDelegate.h */,
+				C05AA82F1B550F8A008E1B49 /* AppDelegate.m */,
+				C05AA8531B550FCC008E1B49 /* OpenInGoogleMapsController.h */,
+				C05AA8541B550FCC008E1B49 /* OpenInGoogleMapsController.m */,
+				C05AA8561B5512DB008E1B49 /* MapRequestModel.h */,
+				C05AA8571B5512DB008E1B49 /* MapRequestModel.m */,
+				C05AA8591B551324008E1B49 /* Enums.h */,
+				C05AA8341B550F8A008E1B49 /* ViewController.h */,
+				C05AA8351B550F8A008E1B49 /* ViewController.m */,
+				C05AA8371B550F8A008E1B49 /* Main.storyboard */,
+				C05AA83A1B550F8A008E1B49 /* Images.xcassets */,
+				C05AA83C1B550F8A008E1B49 /* LaunchScreen.xib */,
+				C05AA8311B550F8A008E1B49 /* googleMapsScheme.xcdatamodeld */,
+				C05AA82A1B550F8A008E1B49 /* Supporting Files */,
+			);
+			path = googleMapsScheme;
+			sourceTree = "<group>";
+		};
+		C05AA82A1B550F8A008E1B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05AA82B1B550F8A008E1B49 /* Info.plist */,
+				C05AA82C1B550F8A008E1B49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C05AA8461B550F8B008E1B49 /* googleMapsSchemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C05AA8491B550F8B008E1B49 /* googleMapsSchemeTests.m */,
+				C05AA8471B550F8B008E1B49 /* Supporting Files */,
+			);
+			path = googleMapsSchemeTests;
+			sourceTree = "<group>";
+		};
+		C05AA8471B550F8B008E1B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05AA8481B550F8B008E1B49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05AA8261B550F8A008E1B49 /* googleMapsScheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05AA84D1B550F8B008E1B49 /* Build configuration list for PBXNativeTarget "googleMapsScheme" */;
+			buildPhases = (
+				C05AA8231B550F8A008E1B49 /* Sources */,
+				C05AA8241B550F8A008E1B49 /* Frameworks */,
+				C05AA8251B550F8A008E1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googleMapsScheme;
+			productName = googleMapsScheme;
+			productReference = C05AA8271B550F8A008E1B49 /* googleMapsScheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C05AA8421B550F8B008E1B49 /* googleMapsSchemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05AA8501B550F8B008E1B49 /* Build configuration list for PBXNativeTarget "googleMapsSchemeTests" */;
+			buildPhases = (
+				C05AA83F1B550F8B008E1B49 /* Sources */,
+				C05AA8401B550F8B008E1B49 /* Frameworks */,
+				C05AA8411B550F8B008E1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05AA8451B550F8B008E1B49 /* PBXTargetDependency */,
+			);
+			name = googleMapsSchemeTests;
+			productName = googleMapsSchemeTests;
+			productReference = C05AA8431B550F8B008E1B49 /* googleMapsSchemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05AA81F1B550F8A008E1B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Cognizant;
+				TargetAttributes = {
+					C05AA8261B550F8A008E1B49 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C05AA8421B550F8B008E1B49 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C05AA8261B550F8A008E1B49;
+					};
+				};
+			};
+			buildConfigurationList = C05AA8221B550F8A008E1B49 /* Build configuration list for PBXProject "googleMapsScheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05AA81E1B550F8A008E1B49;
+			productRefGroup = C05AA8281B550F8A008E1B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05AA8261B550F8A008E1B49 /* googleMapsScheme */,
+				C05AA8421B550F8B008E1B49 /* googleMapsSchemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05AA8251B550F8A008E1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05AA8391B550F8A008E1B49 /* Main.storyboard in Resources */,
+				C05AA83E1B550F8A008E1B49 /* LaunchScreen.xib in Resources */,
+				C05AA83B1B550F8A008E1B49 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05AA8411B550F8B008E1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05AA8231B550F8A008E1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05AA8581B5512DB008E1B49 /* MapRequestModel.m in Sources */,
+				C05AA8331B550F8A008E1B49 /* googleMapsScheme.xcdatamodeld in Sources */,
+				C05AA8301B550F8A008E1B49 /* AppDelegate.m in Sources */,
+				C05AA8361B550F8A008E1B49 /* ViewController.m in Sources */,
+				C05AA82D1B550F8A008E1B49 /* main.m in Sources */,
+				C05AA8551B550FCC008E1B49 /* OpenInGoogleMapsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05AA83F1B550F8B008E1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05AA84A1B550F8B008E1B49 /* googleMapsSchemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C05AA8451B550F8B008E1B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05AA8261B550F8A008E1B49 /* googleMapsScheme */;
+			targetProxy = C05AA8441B550F8B008E1B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C05AA8371B550F8A008E1B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05AA8381B550F8A008E1B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C05AA83C1B550F8A008E1B49 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05AA83D1B550F8A008E1B49 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05AA84B1B550F8B008E1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e4312b64-6bb7-47c9-939e-71e5761992d1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C05AA84C1B550F8B008E1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cognizant Technology Solutions India Pvt Ltd/";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e4312b64-6bb7-47c9-939e-71e5761992d1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C05AA84E1B550F8B008E1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = googleMapsScheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c99ca1f1-a172-4500-8a6b-6551bd339dd5";
+			};
+			name = Debug;
+		};
+		C05AA84F1B550F8B008E1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = googleMapsScheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c99ca1f1-a172-4500-8a6b-6551bd339dd5";
+			};
+			name = Release;
+		};
+		C05AA8511B550F8B008E1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = googleMapsSchemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/googleMapsScheme.app/googleMapsScheme";
+			};
+			name = Debug;
+		};
+		C05AA8521B550F8B008E1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = googleMapsSchemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/googleMapsScheme.app/googleMapsScheme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05AA8221B550F8A008E1B49 /* Build configuration list for PBXProject "googleMapsScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05AA84B1B550F8B008E1B49 /* Debug */,
+				C05AA84C1B550F8B008E1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05AA84D1B550F8B008E1B49 /* Build configuration list for PBXNativeTarget "googleMapsScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05AA84E1B550F8B008E1B49 /* Debug */,
+				C05AA84F1B550F8B008E1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05AA8501B550F8B008E1B49 /* Build configuration list for PBXNativeTarget "googleMapsSchemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05AA8511B550F8B008E1B49 /* Debug */,
+				C05AA8521B550F8B008E1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C05AA8311B550F8A008E1B49 /* googleMapsScheme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C05AA8321B550F8A008E1B49 /* googleMapsScheme.xcdatamodel */,
+			);
+			currentVersion = C05AA8321B550F8A008E1B49 /* googleMapsScheme.xcdatamodel */;
+			path = googleMapsScheme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C05AA81F1B550F8A008E1B49 /* Project object */;
+}
